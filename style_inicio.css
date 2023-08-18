@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Castoro+Titling&family=Dancing+Script:wght@500&family=Josefin+Sans:ital,wght@1,200&family=Pacifico&family=Sigmar&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+	
+body { overflow-x: hidden; }
+
+header{
+    background: url(image/bg.jpg);
+    height: 250px;
+    
+}
+
+header img {
+    margin: 2rem 0 0 38.5rem;
+    width: 150px;
+    height: 120px;
+    
+}
+
+#aclogo1 {
+    margin: 0 0 0 40rem;
+    color:blanchedalmond;
+    font-family: "Dancing Script", sans-serif;
+
+}
+
+main {
+    min-height: 500px;
+}
+
+.title_inicio {
+    margin: 2rem 0 0 29rem ;
+    font-size: 2rem;
+    color:black;
+    font-family: "Tilt Prism", sans-serif;
+}
+
+.title_main_fotter{
+    margin: 1rem 0 0 26rem ;
+    font-size: 1.5rem;
+    color:black;
+    font-family: "Open Sans", sans-serif;
+}
+.title_main_fotter1{
+    margin: 0.5rem 0 3rem 35rem ;
+    font-size: 1.5rem;
+    color:black;
+    font-family: "Open Sans", sans-serif;
+}
+.image_main1{
+    margin: 0 0 0 27rem;
+    border: groove black 0.5rem;
+}
+
+footer {
+    position: relative;
+    background: url(image/bg.jpg);
+    text-align: center;
+}
+
+footer background {
+    width: 100%;
+    height: 80px;
+}
+
+#img01b {
+
+    width: 8rem;
+}
+
+#img02b {
+    
+    width: 8rem;
+    margin: 0 0 0 70%;
+}
+
+#copyright {
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+}

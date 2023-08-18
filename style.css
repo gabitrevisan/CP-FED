@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Castoro+Titling&family=Dancing+Script:wght@500&family=Josefin+Sans:ital,wght@1,200&family=Pacifico&family=Sigmar&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+}
+	
+body { overflow-x: hidden; }
+
+header{
+    background: url(image/bg.jpg);
+    height: 250px;
+    
+}
+
+header img {
+    margin: 40px 0 0 50px;
+    width: 150px;
+    height: 120px;
+    
+}
+
+#aclogo {
+    margin: 0 0 0 65px;
+    color:blanchedalmond;
+    font-family: "Dancing Script", sans-serif;
+
+}
+
+nav {
+    position: absolute;
+    top:  110px ;
+    right: 0;
+    margin: 0 50px 0 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    color: white;
+
+}
+
+nav a {
+    text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+    text-decoration: none;
+    cursor:pointer
+	
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.paginacolor {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 180px;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.paginacolor p{
+    margin-left: 100px;
+    padding-block: 25px;
+    font-family: "Bruno Ace" , sans-serif ;
+    color:darkorange
+
+}
+
+button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    font-family: "Merriweather" , sans-serif;
+}
+  
+  .cor1 {
+    background-color: red; 
+    color: black
+}
+  
+  .cor2 {
+    background-color: green; 
+    color: black
+}
+  
+  .cor3 {
+    background-color: blue; 
+    color: black
+}
+
+.original {
+    background-color: white;
+    color: black
+}
+
+.block {
+    width: 100%;
+	margin: 0 50px 0 100px;
+	padding: 50px 0;
+}
+
+main {
+    min-height: 500px;
+}
+
+#img1 {
+    width: 20rem;
+    padding: 50px 5px;
+    height: 12rem;
+    max-height: fit-content;
+}
+
+#img2 {
+    width: 20rem;
+    height: 12rem;
+    padding: 50px 10px;
+    max-height: fit-content;
+}
+
+
+.block p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+.block li {
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 7%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+
+.block :hover{
+    color: #C78C19;
+   
+}
+
+footer {
+    position: relative;
+    background: url(image/bg.jpg);
+    text-align: center;
+}
+
+footer background {
+    width: 100%;
+    height: 80px;
+}
+
+#img01b {
+
+    width: 8rem;
+}
+
+#img02b {
+    
+    width: 8rem;
+    margin: 0 0 0 70%;
+}
+
+#copyright {
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+}

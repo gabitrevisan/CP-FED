@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Contato</title>
+		<link rel="stylesheet" href="style_contato.css">
+	</head>
+	<body>
+		<header>
+			<div class="bannerlist">
+				<h1><img src="image/vinho (1).png"></h1>
+					<h2 id="aclogo"> Vinheiria City</h2>
+					<nav>
+						<ul>
+                    <li><a id="home" href="Index.html">Home</a></li>
+                    <li><a id="sobre" href="sobre.html">Sobre</a></li>
+                    <li><a id="fundador" href="fundador.html">Fundador</a></li>
+                    <li><a id="horarios" href="horarios.html">Horários</a></li>
+                    <li><a id="contato" href="contato.html">Contato</a></li>
+                    <li><a id="localizacao" href="endereço.html">Localização</a></li>
+						</ul>
+					</nav>
+			</div>
+		</header>
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Insira aqui seu Nome e Sobrenome">
+
+				<label for="emailusuario"> Email </label>
+				<input type="email" id="emailusuario" class="input-padrao" required placeholder="Insira aqui seu email">
+
+				<label for="telefone"> Telefone </label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="Insira aqui seu Telefone">
+
+				<label for="caixa-texto-grande">Mensagem</label>
+				<textarea cols="70" rows="10" id="caixa-texto-grande" class="input-padrao" required placeholder="Digite as suas observações"></textarea>
+
+				<fieldset>
+					<legend>Como Prefere o nosso contato ??</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="Email" id="radio-email">Email</label>
+				
+
+					<label for="radio-telefone"><input type="radio" value="telefone" name="contato" id="radio-telefone">Telefone</label>
+				
+
+					<label for="radio-zap"><input type="radio" value="Whatsapp" name="contato" id="radio-zap" checked>Whatsapp</label>
+				
+
+					<label for="radio-sms"><input type="radio" value="sms" name="contato" id="radio-sms">Mensagem (SMS)</label>
+
+				</fieldset>
+
+				<fieldset>
+					<legend> Qual Horario tem preferencia para atendimento</legend>
+					<select>
+						<option>Manha</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+					<label class="checkbox"><input type="checkbox" checked> Voce deseja Receber em primeira mão as novidades via email ?</label>
+
+					<input type="submit" value="Enviar Formulário" class="enviarform">
+				</form>
+
+			</main>
+            <footer>
+                <img id="img01b" src="image/vinho (2).png">
+                <img id="img02b" src="image/vinho (3).png">
+            
+                <p id="copyright">&copy; Copyright Vinheria City - 2023 </p>
+            </footer>
+		<script src="script_contato.js"></script>
+	</body>
+</html>
