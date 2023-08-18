@@ -72,32 +72,6 @@ nav a:hover {
 
 }
 
-button {
-    background-color: #007bff; 
-    color: #fff; 
-    border: none; 
-    border-radius: 5px; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    font-family: "Merriweather" , sans-serif;
-}
-  
-  .cor1 {
-    background-color: red; 
-    color: black
-}
-  
-  .cor2 {
-    background-color: green; 
-    color: black
-}
-  
-  .cor3 {
-    background-color: blue; 
-    color: black
-}
-
 .original {
     background-color: white;
     color: black
