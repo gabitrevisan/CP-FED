@@ -5,12 +5,15 @@
     padding: 0;
 }
 
+@media only screen and (max-device-width: 900px) {
+    .menu { width:100%; }
+    }
+
 @media (min-width: 500px) {
     .container {
         flex-direction: column;
     }
 }
-
 	
 body { overflow-x: hidden; }
 
@@ -21,14 +24,14 @@ header{
 }
 
 header img {
-    margin: 2rem 0 0 38.5rem;
+    margin: 2rem 0 0 41.5rem;
     width: 150px;
     height: 120px;
     
 }
 
 #aclogo1 {
-    margin: 0 0 0 40rem;
+    margin: 0 0 0 43rem;
     color:blanchedalmond;
     font-family: "Dancing Script", sans-serif;
 
@@ -39,26 +42,26 @@ main {
 }
 
 .title_inicio {
-    margin: 2rem 0 0 29rem ;
+    margin: 2rem 0 0 32rem ;
     font-size: 2rem;
     color:black;
     font-family: "Tilt Prism", sans-serif;
 }
 
 .title_main_fotter{
-    margin: 1rem 0 0 26rem ;
+    margin: 1rem 0 0 28rem ;
     font-size: 1.5rem;
     color:black;
     font-family: "Open Sans", sans-serif;
 }
 .title_main_fotter1{
-    margin: 0.5rem 0 3rem 35rem ;
+    margin: 0.5rem 0 3rem 37rem ;
     font-size: 1.5rem;
     color:black;
     font-family: "Open Sans", sans-serif;
 }
 .image_main1{
-    margin: 0 0 0 27rem;
+    margin: 0 0 0 31rem;
     border: groove black 0.5rem;
 }
 
